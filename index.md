@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# MOS Subjective Evaluation
+# Subjective Evaluation
 
 
 | No. | Chinese Text | WRF | Proposed |
