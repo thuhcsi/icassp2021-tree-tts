@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# MOS 
+# MOS Subjective Evaluation
 
 
 | No. | Chinese Text | WRF | Proposed |
@@ -35,7 +35,7 @@ layout: default
 * * *
 
 
-# Nulear-norm Maximization Loss 
+# Ablation Study of Nulear-norm Maximization Loss 
 
 
 | No. | Chinese Text | Without NML | With NML (Proposed) |
@@ -60,7 +60,8 @@ layout: default
 * * *
 
 
-# With different structure
+# Sentences with multiple different syntactic parse trees 
+## (displayed as different word segmentation results)
 
 
 | No. | Chinese Text | WRF | Proposed |
@@ -75,4 +76,3 @@ layout: default
 | 8 | 该研究所得到的经费很多。["该", "研究", "所", "得到", "的", "经费", "很多"] | <audio controls><source src="./wavs/wrf/wav-batch_73_sentence_0-linear.wav" type="audio/wav">Your browser does not support the audio element.</audio> | <audio controls><source src="./wavs/bnm/wav-batch_73_sentence_0-linear.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 | 9 | 能穿多少穿多少。["能", "穿", "多少", "穿", "多少"] | <audio controls><source src="./wavs/wrf/wav-batch_64_sentence_0-linear.wav" type="audio/wav">Your browser does not support the audio element.</audio> | <audio controls><source src="./wavs/bnm/wav-batch_64_sentence_0-linear.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 | 10 | 能穿多少穿多少。["能", "穿", "多", "少", "穿", "多", "少"] | <audio controls><source src="./wavs/wrf/wav-batch_75_sentence_0-linear.wav" type="audio/wav">Your browser does not support the audio element.</audio> | <audio controls><source src="./wavs/bnm/wav-batch_75_sentence_0-linear.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-
